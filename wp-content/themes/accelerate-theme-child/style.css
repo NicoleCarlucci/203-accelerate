@@ -57,13 +57,14 @@ Text Domain:  accelerate-theme-child
 .case-study-images {
   float: left;
   width: 600px;
+  padding-left: 50px;
 }
 aside h2 {
   line-height: 1;
 }
 aside h4 {
   color: #a6a6a6;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   font-weight: normal;
 }

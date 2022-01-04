@@ -36,8 +36,8 @@ Text Domain:  accelerate-theme-child
 }
 .read-more-link {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-	color: #45ac9d;
-	text-transform: uppercase;
+	  color: #45ac9d;
+	  text-transform: uppercase;
 }
 
 /* Media Queries */
@@ -47,4 +47,27 @@ Text Domain:  accelerate-theme-child
     	float: left;
       margin-bottom: 2em;
 	}
+}
+
+/* Case Studies Styles */
+.case-study-sidebar {
+  float: left;
+  width: 300px;
+}
+.case-study-images {
+  float: left;
+  width: 600px;
+}
+aside h2 {
+  line-height: 1;
+}
+aside h4 {
+  color: #a6a6a6;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: normal;
+}
+aside h4 span {
+  color:  #3b3b3b;
+  font-weight: normal;
 }

@@ -73,8 +73,9 @@ Text Domain:  accelerate-theme-child
 }
 .case-study-images {
   float: left;
-  width: 600px;
-  padding-left: 50px;
+  width: 514px;
+  margin-left: 100px;
+  margin-bottom: 10px;
 }
 aside h2 {
   line-height: 1;

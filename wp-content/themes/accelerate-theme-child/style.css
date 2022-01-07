@@ -23,6 +23,23 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
 }
 
+/* featured work on homepage */
+
+.featured-work-list {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.individual-featured-work {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+}
+.individual-featured-work h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
 /* blog post on homepage */
 
 .blog-post h4 {

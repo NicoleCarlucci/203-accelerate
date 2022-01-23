@@ -14,6 +14,7 @@
 function accelerate_child_scripts(){
 	wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' ));
+	wp_enqueue_style( 'accelerate-child-font-awesome', '//use.fontawesome.com/releases/v5.5.0/css/all.css');
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
@@ -33,4 +34,4 @@ function create_custom_post_types() {
     );
 }
 // Hook this custom post type function into the theme
-add_action( 'init', 'create_custom_post_types' ); 
+add_action( 'init', 'create_custom_post_types' );

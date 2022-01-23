@@ -90,3 +90,31 @@ aside h4 span {
   color:  #3b3b3b;
   font-weight: normal;
 }
+
+/* Footer Social Nav Styles */
+#menu-social-media-nav li{
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+i {
+  font-size: 30px;
+  color: black;
+  border-radius: 50%;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}

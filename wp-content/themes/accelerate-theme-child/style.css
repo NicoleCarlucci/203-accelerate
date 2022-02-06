@@ -118,3 +118,11 @@ i {
   width: 1px;
   word-wrap: normal !important;
 }
+
+/* Contact Form Styles */
+#nf-field-4 {
+  background: #45ab9d;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: right;
+}

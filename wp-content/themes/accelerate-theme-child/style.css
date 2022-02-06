@@ -126,3 +126,49 @@ i {
   padding-right: 50px;
   float: right;
 }
+
+/* About Page Styles */
+p.has-text-align-center.has-medium-font-size{
+  color: white;
+  padding-left: 400px;
+  padding-right: 400px;
+  font-size: 1.5em;
+}
+
+h4.about-services-presentation {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p.about-services-presentation {
+  text-align: center;
+}
+
+ul.about-services-list{
+  list-style: none;
+}
+
+.individual-about-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  margin: 20px auto;
+}
+
+.service-description {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.contact-button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+}

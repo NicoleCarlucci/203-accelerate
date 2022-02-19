@@ -41,6 +41,10 @@ Text Domain:  accelerate-theme-child
 }
 
 /* blog post on homepage */
+/*.recent-posts {
+  clear: both;
+  overflow: auto;
+}*/
 
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
@@ -55,6 +59,30 @@ Text Domain:  accelerate-theme-child
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	  color: #45ac9d;
 	  text-transform: uppercase;
+}
+
+/* tweet on homepage */
+.widget-area h4 {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
+}
+
+.ctf-more span {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+div#secondary.widget-area {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 325px;
 }
 
 /* Media Queries */

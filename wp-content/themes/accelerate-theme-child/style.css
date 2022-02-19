@@ -41,11 +41,6 @@ Text Domain:  accelerate-theme-child
 }
 
 /* blog post on homepage */
-/*.recent-posts {
-  clear: both;
-  overflow: auto;
-}*/
-
 .blog-post h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
@@ -207,7 +202,6 @@ figure.wp-block-image.size-full.is-resized {
   padding-bottom: 0;
 }
 
-
 .error-message{
   text-align: center;
 }
@@ -231,4 +225,18 @@ p.error-message{
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+}
+
+/* Sidebar Newsletter Styles */
+.mc4wp-form-fields label {
+  font-weight: bold;
+}
+
+div.mc4wp-form-fields input[type=email]  {
+  font-style: italic;
+}
+
+div.mc4wp-form-fields input[type=submit]  {
+  background-color: #45ac9d;
+  padding-bottom: 35px;
 }
